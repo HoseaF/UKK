@@ -1,0 +1,91 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	padding: 40px 300px;
+}
+
+.flex{
+	display: flex;
+}
+
+.block{
+	display: block
+}
+
+.profile{
+	display: flex;
+	width: 500px;
+	height: 80px;
+	line-height: 80px;
+}
+
+.profile img, .post img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.profile p{
+	font-size: 24px;
+}
+
+.postgroup{
+	display: block;
+}
+
+.post{
+	display: flex;
+	position: relative;
+	width: 1300px;
+	padding: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border: 1px solid #888888;
+	border-radius: 5px;
+}
+
+.post button, .comment button{
+	width: 100px;
+	height: 60px;
+	margin: 0 15px;
+}
+
+.post p{
+	width: 600px;
+}
+
+.notImage{
+	display: block;
+	width: 1000px;
+}
+
+.caption{
+	width: 500px;
+	padding-bottom: 400px;
+}
+
+.comment{
+	border-radius: 5px;
+	border: 1px solid #dcdcdc;
+	margin-bottom: 20px;
+	padding: 20px;
+	display: flex;
+}
+
+.postbuttons, .commentbuttons{
+	position: absolute;
+	width: 400px;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	right: 10%;
+}
+
+.commentbuttons{
+	justify-content: left;
+}
